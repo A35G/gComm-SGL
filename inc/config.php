@@ -50,7 +50,7 @@
   define("name_app", "gComm - SimpleGuestbook - Light Version");
   define("mail_wm", "a35g@hackworld.it");
   define("author", "Gianluigi 'A35G' Maurilio");
-  define("dpub", 2014);
+  define("dpub", 2010);
 
   if (isset($extf) && !empty($extf) && is_numeric($extf)) {
 

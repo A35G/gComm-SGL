@@ -13,3 +13,4 @@ Features
 - [ ] Modify meta tags and backup database ( all tables of the database or tables of the guestbook );
 - [ ] Switch to Italian or English language;
 - [ ] Mathematic captcha.
+- [ ] Use Gravatar 'APIs'
