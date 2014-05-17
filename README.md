@@ -18,4 +18,4 @@ Features
 	- [ ] Use Gravatar 'APIs'
 
 **To integrate**:
-[ ] Captcha mathematical and visual
+- [ ] Captcha mathematical and visual
