@@ -86,3 +86,7 @@ function doInsert(ibTag, ibClsTag, isSingle) {
 function smile(x) {
   doInsert(x, '', false);
 }
+
+	$(function(){
+		$('a[rel="external"]').attr('target', '_blank');
+	})

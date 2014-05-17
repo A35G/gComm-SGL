@@ -34,5 +34,17 @@ div#info-install div#content-info { float: left; width: 92%; }
 div#info-install div#content-info a { text-decoration: none; color: #000; cursor: help; border-bottom: 1px dashed #000; }
 div#info-install div.info-img { margin-left: 3px; float: left; width: 36px; height: 36px; background: url('../images/avvisi/info.png') no-repeat center center; }
 
+/* View */
+div.incont { border: 0px solid #FF0000; width: 450px; margin: 5px auto; font-family: Verdana,Arial,ms-serif; font-size: 11px; border-bottom: 1px solid #CCC; box-shadow: 2px 2px 2px #C0C0C0; }
+div.incont img.avatar { float: left; display: inline; clear: both; box-shadow: -1px 2px 2px 1px #C0C0C0; margin-bottom: 7px; }
+div.contmex { border: 0px dashed #CCC; margin: 5px; width: 80%; float: left; }
+div.infomed { border-bottom: 1px solid #CCC; width: 98%; padding: 3px; margin: 5px auto 0px auto; }
+div.infomed div.namef { float: left; margin-bottom: 3px; }
+div.infomed div.namef a { font-weight: bold; text-decoration: none; color: #000; }
+div.infomed div.oradata { float: right; text-align: right; margin-right: 10px; margin-bottom: 3px; }
+div.oradata { float: right; text-align: right; margin-right: 10px; font-size: 10px; font-style: italic; }
+div.oradata a { font-weight: normal; text-decoration: none; color: #000; cursor: help; border-bottom: 1px dotted #0000FF; }
+div.incorp { padding: 3px; margin-left: 3px; }
+
 .evid { font-weight: bold; }
 .clear { clear: both; }

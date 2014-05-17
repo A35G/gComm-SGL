@@ -37,7 +37,7 @@
 			<span id=\"credits\">
 				<span id=\"num-mex\"></span> Messaggi nella TagBoard &nbsp;|&nbsp; <a onclick=\"visual_all()\" title=\"Vedi tutti i Messaggi\">Vedi tutti i Messaggi</a>
 				<br />
-				Copyright &copy; " .$voice_site->copyrSite(). " Gianluigi &quot;A35G&quot; in collaborazione con <a href=\"http://www.hackworld.it/\" title=\"HackWorld - My world, your world\" target=\"_blank\">HackWorld</a> &amp; <a href=\"http://www.gmcode.it/\" title=\"GMCode - Gianluigi 'A35G' in the net\" target=\"_blank\">GMCode.it</a>
+				Copyright &copy; " .$voice_site->copyrSite(). " Gianluigi &quot;A35G&quot; in collaborazione con <a href=\"http://www.hackworld.it/\" title=\"HackWorld - My world, your world\" rel=\"external\">HackWorld</a> &amp; <a href=\"http://www.gmcode.it/\" title=\"GMCode - Gianluigi 'A35G' in the net\" rel=\"external\">GMCode.it</a>
 			</span>
 		</div>
 	</form>

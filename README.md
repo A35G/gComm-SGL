@@ -8,9 +8,14 @@ A simple and intuitive but complete interface, help user to install and use this
 Features
 ===============
 
-- [ ] Modify and delete comments;
-- [x] Insert emoticons;
-- [ ] Modify meta tags and backup database ( all tables of the database or tables of the guestbook );
-- [ ] Switch to Italian or English language;
-- [ ] Mathematic captcha.
-- [ ] Use Gravatar 'APIs'
+-	**Admin**:
+	- [ ] Modify and delete comments;
+	- [ ] Backup database (all tables of the database or tables of the guestbook);
+
+-	**Users**:
+	- [x] Insert emoticons;
+	- [ ] Switch to Italian or English language;
+	- [ ] Use Gravatar 'APIs'
+
+**To integrate**:
+[ ] Captcha mathematical and visual
