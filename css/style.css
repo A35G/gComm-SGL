@@ -1,0 +1,38 @@
+div#general-box { padding:3px; width:662px; height:350px; overflow-x:hidden; overflow-y:auto; margin:0px; }
+
+div#general-box table#first-form { margin:0px; border:1px solid #000; width:650px; font-family:Verdana; font-size:10px; color:#000; padding:0px; }
+div#general-box table#first-form td#first-form-nick { border-right:1px solid #000; width:325px; }
+div#general-box table#first-form td#first-form-nick input#nick_tag { border:1px solid #CCC; font-size:10px; font-family:Verdana; color:#000; }
+div#general-box table#first-form td#first-form-smail { width:325px; }
+div#general-box table#first-form td#first-form-smail input#smail_tag { border:1px solid #CCC; font-size:10px; font-family:Verdana; color:#000; }
+
+div#general-box table#second-form { margin:0px; border-left:1px solid #000; border-right:1px solid #000; border-bottom:1px solid #000; border-top:0px; width:650px; font-family:Verdana; font-size:10px; color:#000; }
+div#general-box table#second-form td#second-form-mex input#mex_tag { border:1px solid #CCC; font-size:10px; font-family:Verdana; color:#000; }
+div#general-box table#second-form td#second-form-mex input#submit { background:transparent; font-weight:bold; border:1px solid #CCC; font-size:10px; font-family:Verdana; color:#000; }
+div#general-box table#second-form td.second-form-mini { width:20px; }
+div#general-box table#second-form td.second-form-mini a, a:link, a:visited, a:active { cursor:pointer; text-decoration:none; }
+
+div#general-box div#smile-box { width:650px; margin:0px; }
+
+div#general-box div#mexage-box { width:650px; margin:0px; }
+
+div#general-box span#credits { font-family:Verdana; font-size:10px; color:#000; line-height:15px; }
+div#general-box span#credits a, a:link, a:visited, a:active { font-weight:bold; text-decoration:none; color:#000; cursor:pointer; }
+
+div#area-advised { margin: 50px auto 0px auto; width: 500px; }
+
+div#named { width: 100%; border: 1px solid #CCC; font-family: sans-serif,Verdana,Arial; font-size: 11px; color: #000; line-height: 20px; text-align: center; }
+div#named h3 { padding: 0; margin: 3px auto; font-size: 16px; }
+div#named h3 sup { font-size: 10px; border-bottom: 1px dotted #0000FF; color: #FF0000; font-style: italic; }
+
+div#alert-install { width: 98%; margin: 30px auto; padding: 3px; border: 1px solid #CCC; border-bottom: 3px solid #CCC; border-right: 3px solid #CCC; font-family: Verdana,Arial; font-size: 11px; color: #000; line-height: 20px; font-weight: bold; text-align: center; }
+div#alert-install div.alert-img { margin-left: 3px; float: left; width: 36px; height: 36px; background: url('../images/avvisi/warning.png') no-repeat center center; }
+div#alert-install div#content-alert { float: left; width: 84%; }
+
+div#info-install { width: 98%; margin: 30px auto; padding: 3px; border: 1px solid #CCC; border-bottom: 3px solid #CCC; border-right: 3px solid #CCC; font-family: Verdana,Arial; font-size: 11px; color: #000; line-height: 20px; font-weight: normal; text-align: center; }
+div#info-install div#content-info { float: left; width: 92%; }
+div#info-install div#content-info a { text-decoration: none; color: #000; cursor: help; border-bottom: 1px dashed #000; }
+div#info-install div.info-img { margin-left: 3px; float: left; width: 36px; height: 36px; background: url('../images/avvisi/info.png') no-repeat center center; }
+
+.evid { font-weight: bold; }
+.clear { clear: both; }
