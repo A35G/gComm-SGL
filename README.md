@@ -12,7 +12,7 @@ Features
 	- [ ] Modify and delete comments;
 	- [ ] Backup database (all tables of the database or tables of the guestbook);
 	-	[ ]	Enabling censorship of messages through words blacklist;
-	-	[	]	Sets the moderation of messages.
+	-	[ ]	Sets the moderation of messages.
 
 -	**Users**:
 	- [x] Insert emoticons;
