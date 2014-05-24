@@ -87,6 +87,25 @@ function smile(x) {
   doInsert(x, '', false);
 }
 
-	$(function(){
-		$('a[rel="external"]').attr('target', '_blank');
-	})
+//	Check form
+if ($('#tag_form').length) {
+
+	$('#tag_form').submit(function(e)) {
+
+		e.preventDefault();
+
+		alert('Submit');
+
+	}
+
+}
+
+$(function(){
+	$('a[rel="external"]').attr('target', '_blank');
+})
+
+$(document).ready(function() {
+
+
+
+})

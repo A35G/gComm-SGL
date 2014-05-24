@@ -349,25 +349,32 @@
 
     }
 
-    public function destroySessionStore($sessionData = '') {
+    public function vSmile($txt) {
 
-    	if (isset($sessionData) && !empty($sessionData) && is_array($sessionData)) {
+    	$m_txt = '';
 
-    		foreach ($sessionData as $key => $valueSession)
-    			unset($GLOBALS[_SESSION][$valueSession]);
+    	$bs_smile = array(
+    		";)" => "0", ":D" => "1", "0.0" => "2",
+    		":(" => "3", "8)" => "4", ":cry" => "5",
+    		":<" => "6", ":lol" => "7", "<_<" => "8",
+    		":|" => "9", ":P" => "10", ":p" => "10",
+    		"8|" => "11", ":)" => "12", ":o" => "13",
+    		":-|" => "14", ":idea:" => "15",
+    		":s" => "16", ":rosso:" => "17",
+    		"?_?" => "18", "!_!" => "19",
+    		"XD" => "20", ":tim" => "blush21nx", ":dj" => "dj",
+    		":grrr" => "evil1", ":guitar" => "guitar", ":lamp" => "icon_idea",
+    		":argh" => "out_cold", ":nite" => "sonno", ":alt" => "trampoline",
+    		":vib" => "vibrate", ":first" => "winner_first_h4h", ":second" => "winner_second_h4h",
+    		":third" => "winner_third_h4h", ":yuppi" => "yupi3ti"
+    	);
 
-    	}
+    	foreach($bs_smile as $sm_code => $sm_img)
+				$m_txt = @str_ireplace($sm_code, "<img src='".$this->ARurl.$this->graph."images/emoticons/".$sm_img.".gif'>", $txt);
 
-			session_unset();
-			session_destroy();
-			header('Location: '. $this->ARurl.'login.html');
-			exit;
+			return $m_txt;
 
     }
-
-		public function unsetSessionVariable ($sessionVariableName) {
-   		unset($GLOBALS[_SESSION][$sessionVariableName]);
-		}
 
 		public function connectDB() {
 			$this->connessione();

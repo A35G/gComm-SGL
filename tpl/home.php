@@ -1,7 +1,7 @@
 <?php
 
 	$tpl_page = "<center>
-	<form name=\"EcoBoard\" method=\"post\" action=\"".Site_url."pages/write.php\" onsubmit=\"return controlla_form();\">
+	<form name=\"gComm_form\" id='tag_form' method=\"POST\" action=\"".Site_url."pages/write.php\" onsubmit=\"return controlla_form();\">
 	<img src=\"".Site_url."images/one.gif\" border=\"0\" alt=\"\" onload=\"primary_settings()\" />
 		<div id=\"general-box\">
 			<table cellpadding=\"3\" cellspacing=\"0\" id=\"first-form\">
